@@ -17,4 +17,15 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font, sans-serif);
+  font-variation-settings: 'wgth' var(--text-font-weight-light);
+  background-color: var(--bg-color);
+  color: var(--accent-color);
 }
+
+@supports (font-variation-settings: normal) {
+  .page {
+      font-family: 'Roboto-Flex-Variable', sans-serif;
+  }
+}
+
