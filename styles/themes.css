@@ -11,6 +11,20 @@
   --title-font-wight: 700;
   --bg-color: #FFF;
   --accent-color: #000;
+  --bg-image: 
+  repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #e7e7e7, #e7e7e7 2px, #1a1a1a 2px, #1a1a1a 4px),
+  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --card-text-font: 18px;
+  --border-color: #000;
+  --border-watermark: #fff;
+  --button-background: #fff;
+  --button-text-color: #fff;
+  --floppy-color: #fff;
+  --contour-color: #000;
+  --fill-color: #FF0000;
+  --background-floppy: #fff;
+  --background-dialog: #fff;
 }
 
 :root.theme-dark {
@@ -20,6 +34,20 @@
   --title-font-wight: 785;
   --bg-color: #000;
   --accent-color: #00CC14;
+  --bg-image: 
+  repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #007f0c, #007f0c 2px, #004306 2px, #004306 4px),
+  linear-gradient(to bottom, #007f0c 0.01%, #004306);
+  --card-text-font: 18px;
+  --border-color: #00CC14;
+  --border-watermark: #fff;
+  --button-background: #fff;
+  --button-text-color: #00CC14;
+  --floppy-color: #00CC14;
+  --contour-color: #00CC14;
+  --fill-color: #00CC14;
+  --background-floppy: #000;
+  --background-dialog: #000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,5 +58,19 @@
   --title-font-wight: 785;
   --bg-color: #000;
   --accent-color: #00CC14;
+  --bg-image: 
+  repeating-linear-gradient(to right, #000, #000 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #007f0c, #007f0c 2px, #004306 2px, #004306 4px),
+  linear-gradient(to bottom, #007f0c 0.01%, #004306);
+  --card-text-font: 18px;
+  --border-color: #00CC14;
+  --border-watermark: #fff;
+  --button-background: #fff;
+  --button-text-color: #00CC14;
+  --floppy-color: #00CC14;
+  --contour-color: #00CC14;
+  --fill-color: #00CC14;
+  --background-floppy: #000;
+  --background-dialog: #000;
   }
 }

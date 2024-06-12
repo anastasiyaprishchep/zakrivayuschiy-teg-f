@@ -3,7 +3,21 @@
   --main-font: 'Inter';
   --accent-font: 'PressStart2P';
   --text-font-weight: 400;
-  --title-font-wight: 700;
+  --title-font-weight: 700;
   --bg-color: #FFF;
   --accent-color: #000;
+  --bg-image: 
+  repeating-linear-gradient(to right, #d3d3d3, #d3d3d3 2px, transparent 2px, transparent 4px),
+  repeating-linear-gradient(to bottom, #e7e7e7, #e7e7e7 2px, #1a1a1a 2px, #1a1a1a 4px),
+  linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --card-text-font: 18px;
+  --border-color: #000;
+  --border-watermark: #fff;
+  --button-background: #fff;
+  --button-text-color: #fff;
+  --floppy-color: #fff;
+  --contour-color: #000;
+  --fill-color: #FF0000;
+  --background-floppy: #fff;
+  --background-dialog: #fff;
 }
