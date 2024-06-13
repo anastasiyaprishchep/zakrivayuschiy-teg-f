@@ -29,17 +29,14 @@
   background-size: cover;
   background-attachment: fixed;
   padding: 100px 0;
+  max-inline-size: 699px;
+  margin: 0 auto;
 }
 
 @supports (font-variation-settings: normal) {
   .page {
     font-family: "Inter", sans-serif;
   }
-}
-
-.wrapper {
-  max-inline-size: 699px;
-  margin: 0 auto;
 }
 
 .header {
@@ -135,19 +132,17 @@
   transition: transform 0.3s;
 }
 
-.main {
+.content {
   display: flex;
   flex-direction: column;
   gap: 50px;
   padding-block-end: 50px;
+  max-inline-size: 699px;
 }
 
 .card__list {
   border: 2px solid var(--border-color);
   background-color: var(--bg-color);
-}
-
-.card__list-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,6 +310,11 @@ p:nth-child(1) {
   padding: 15px 18px;
 }
 
+.dialog__content {
+  display: flex;
+  justify-content: center;
+}
+
 .button-floppy {
   mix-blend-mode: difference;
   color: var(--floppy-color);
@@ -410,10 +410,6 @@ p:nth-child(1) {
   .button__save-floppy {
     inline-size: 28px;
     block-size: 28px;
-  }
-
-  .content {
-    padding-block-end: 3px;
   }
 
   .card__like-button {
