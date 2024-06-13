@@ -57,7 +57,6 @@
   padding-block-end: 25px;
   font-weight: var(--text-font-weight);
   text-transform: uppercase;
-  /*inline-size: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);*/
   margin-block-end: 100px;
   inline-size: 100%;
 }
@@ -144,7 +143,6 @@
 }
 
 .card__list {
-  /*inline-size: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);*/
   border: 2px solid var(--border-color);
   background-color: var(--bg-color);
 }
