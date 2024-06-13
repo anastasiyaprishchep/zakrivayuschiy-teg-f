@@ -15,11 +15,11 @@
 
 @keyframes pointer {
   from {
-    margin-inline-start: -20px;
+    left: -20px;
   }
 
   to {
-    margin-inline-start: -16px;
+    left: -16px;
   }
 }
 
