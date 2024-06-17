@@ -29,7 +29,6 @@
 
 .card__icon-button:focus-visible {
   border-color: var(--border-color);
-  transition: border-color 0.3s;
 }
 
 .sparks {
